@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import { Inter } from 'next/font/google'
 
+import MainNav from "@/components/MainNav"
 import Footer from "@/components/Footer"
 import InstagramFeed from "@/components/InstagramFeed"
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <MainNav />
         {children}
         <InstagramFeed />
         <Footer />

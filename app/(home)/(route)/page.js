@@ -2,7 +2,6 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
-import MainNav from "@/components/MainNav"
 import ImageCarousel from "@/components/ImageCarousel"
 import OwnerIntro from "@/components/OwnerIntro"
 import Category from "@/components/Category"
@@ -15,10 +14,9 @@ import {isabelThinItalic, palashRegular, nunitoSansLight} from "@/lib/fonts"
 const Home = () => {
   return (
     <div>
-      <MainNav />
       <ImageCarousel maxNumImages={10} />
       <Category />
-      <LineBreak src="/rosemary_leaf.png" />
+      <LineBreak src="/assets/rosemary_leaf.png" />
       <OwnerIntro />
       <div className="h-px my-20 bg-gray-200 dark:bg-gray-700"></div>
       <GalleryIntro />
@@ -61,7 +59,7 @@ const Home = () => {
         </Button>
       </div>
 
-      <LineBreak src="/rosemary_leaf_2.png" />
+      <LineBreak src="/assets/rosemary_leaf_2.png" />
 
 
     </div>
