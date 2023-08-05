@@ -50,7 +50,7 @@ const MainNav = (className, ...props) => {
       <div className="hidden lg:flex justify-between items-center">
         {
           left_items.map((item, index) => (
-            <div className="w-1/6">
+            <div className="w-1/6" key={index} >
               <Link
                 key={index}
                 href={item.href}
@@ -75,7 +75,7 @@ const MainNav = (className, ...props) => {
 
         {
           right_items.map((item, index) => (
-            <div className="w-1/6">
+            <div className="w-1/6" key={index} >
               <Link
                 key={index}
                 href={item.href}

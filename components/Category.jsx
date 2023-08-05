@@ -28,7 +28,7 @@ const Category = () => {
       <div className="hidden md:flex justify-between pt-20 px-5 2xl:px-64 xl:px-28 lg:px-20" >
         {
           items.map((item, index) => (
-            <div className="px-15">
+            <div className="px-15" key={index} >
               <div className="flex flex-col justify-between items-center">
                 <Link
                   href={item.href}
@@ -49,7 +49,10 @@ const Category = () => {
       <div className="md:hidden flex flex-col" >
         {
           items.map((item, index) => (
-            <div className="flex flex-col justify-between items-center pt-10">
+            <div
+              className="flex flex-col justify-between items-center pt-10"
+              key={index}
+            >
               <Link
                 href={item.href}
                 className={cn("text-base tracking-6 py-1", palashRegular.className)}

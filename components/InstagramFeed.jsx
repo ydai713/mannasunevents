@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils"
 import Link from "next/link"
 import Image from "next/image"
 import fetchInstagram from "@/lib/instagram_feed"
-import {isabelThinItalic, palashRegular} from "@/lib/fonts"
+import { isabelThinItalic, palashRegular } from "@/lib/fonts"
 
 const InstagramFeed = async () => {
   const feeds = await fetchInstagram()
@@ -27,7 +27,10 @@ const InstagramFeed = async () => {
       <div className="hidden md:flex justify-between mx-10 lg:mx-3 gap-2 relative">
         {
           feeds.map((feed) => (
-            <div className="aspect-[1/1] w-1/6 relative">
+            <div
+              className="aspect-[1/1] w-1/6 relative"
+              key={feed.id}
+            >
               <Link
                 href="https://www.instagram.com/mannasunevents/"
               >
@@ -46,7 +49,10 @@ const InstagramFeed = async () => {
       </div>
 
       {/* Mobile */}
-      <div className="md:hidden grid grid-cols-2 mx-10 gap-1 relative">
+      <div
+        className="md:hidden grid grid-cols-2 mx-10 gap-1 relative"
+        key={feed.id}
+      >
         {
           feeds.map((feed) => (
             <div className="aspect-[1/1] flex items-center justify-center relative">
