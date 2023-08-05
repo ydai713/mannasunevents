@@ -35,6 +35,7 @@ const InstagramFeed = async () => {
                 href="https://www.instagram.com/mannasunevents/"
               >
                 <Image
+                  key={feed.id}
                   src={feed.media_url}
                   alt="Instagram Feed"
                   fill
@@ -58,6 +59,7 @@ const InstagramFeed = async () => {
               key={feed.id}
             >
               <Image
+                key={feed.id}
                 src={feed.media_url}
                 alt="Instagram Feed"
                 fill
