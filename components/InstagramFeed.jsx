@@ -27,7 +27,7 @@ const InstagramFeed = async () => {
       <div className="hidden md:flex justify-between mx-10 lg:mx-3 gap-2 relative">
         {
           feeds.map((feed) => (
-            <div className="aspect-[1/1] w-1/6 relative" key={feed.id} >
+            <div className="aspect-[1/1] w-1/6 relative" key={feed.media_url} >
               <Link
                 href="https://www.instagram.com/mannasunevents/"
               >
@@ -50,7 +50,7 @@ const InstagramFeed = async () => {
       >
         {
           feeds.map((feed) => (
-            <div className="aspect-[1/1] flex items-center justify-center relative" key={feed.id} >
+            <div className="aspect-[1/1] flex items-center justify-center relative" key={feed.media_url} >
               <Image
                 src={feed.media_url}
                 alt="Instagram Feed"
