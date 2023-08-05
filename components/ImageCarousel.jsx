@@ -17,9 +17,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react'
 import Image from 'next/image'
 
-const baseUrl = 'https://mannasunevents-images.s3.us-west-2.amazonaws.com/landing-page-carousel-images';
-
-const ImageCarousel = ({ maxNumImages }) => {
+const ImageCarousel = ({ maxNumImages, baseUrl }) => {
   const [hasInteracted, setHasInteracted] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const controls = useAnimation();

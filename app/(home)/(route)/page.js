@@ -11,10 +11,12 @@ import Publisher from "@/components/Publisher"
 
 import {isabelThinItalic, palashRegular, nunitoSansLight} from "@/lib/fonts"
 
+const carouselBaseUrl = 'https://mannasunevents-images.s3.us-west-2.amazonaws.com/landing-page-carousel-images';
+
 const Home = () => {
   return (
     <div>
-      <ImageCarousel maxNumImages={10} />
+      <ImageCarousel maxNumImages={11} baseUrl={carouselBaseUrl}/>
       <Category />
       <LineBreak src="/assets/rosemary_leaf.png" />
       <OwnerIntro />
