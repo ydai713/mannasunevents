@@ -16,7 +16,7 @@ const carouselBaseUrl = 'https://mannasunevents-images.s3.us-west-2.amazonaws.co
 const Home = () => {
   return (
     <div>
-      <ImageCarousel maxNumImages={11} baseUrl={carouselBaseUrl}/>
+      <ImageCarousel maxNumImages={10} baseUrl={carouselBaseUrl}/>
       <Category />
       <LineBreak src="/assets/rosemary_leaf.png" />
       <OwnerIntro />
