@@ -44,10 +44,10 @@ const MainNav = (className, ...props) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className={cn("pt-10 lg:px-10 xl:px-15 2xl:px-30 ", className)} {...props} >
+    <nav className={cn("pt-10", className)} {...props} >
 
       {/* Desktop Navigation */}
-      <div className="hidden lg:flex justify-between items-center">
+      <div className="hidden lg:flex justify-between items-centerlg:px-10 xl:px-15 2xl:px-30 ">
         {
           left_items.map((item, index) => (
             <div className="w-1/6" key={index} >
@@ -89,7 +89,7 @@ const MainNav = (className, ...props) => {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="lg:hidden flex justify-between w-full mx-5 relative">
+      <div className="lg:hidden flex justify-between w-full px-5 relative">
         <div className="w-64 h-32 relative">
           <Link href="/" >
             <Image

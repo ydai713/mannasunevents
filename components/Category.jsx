@@ -28,7 +28,7 @@ const Category = () => {
       <div className="hidden md:flex justify-between pt-20 px-5 2xl:px-64 xl:px-28 lg:px-20" >
         {
           items.map((item, index) => (
-            <div className="px-15" key={index} >
+            <div className="px-15 w-1/4" key={index} >
               <div className="flex flex-col justify-between items-center">
                 <Link
                   href={item.href}
