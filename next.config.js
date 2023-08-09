@@ -4,8 +4,8 @@ const nextConfig = {
     domains: ['mannasunevents-images.s3.us-west-2.amazonaws.com', "scontent.cdninstagram.com"],
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "scontent.cdninstagram.com",
+        protocol: 'https',
+        hostname: '**.cdninstagram.com',
       },
     ]
   },
