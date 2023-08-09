@@ -4,7 +4,7 @@ const carouselBaseUrl = 'https://mannasunevents-images.s3.us-west-2.amazonaws.co
 
 const Press = () => {
   return (
-    <ImageCarousel maxNumImages={12} baseUrl={carouselBaseUrl} />
+    <ImageCarousel maxNumImages={11} baseUrl={carouselBaseUrl} />
   );
 }
 
