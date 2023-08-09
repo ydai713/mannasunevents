@@ -47,7 +47,7 @@ const MainNav = (className, ...props) => {
     <nav className={cn("pt-10", className)} {...props} >
 
       {/* Desktop Navigation */}
-      <div className="hidden lg:flex justify-between items-centerlg:px-10 xl:px-15 2xl:px-30 ">
+      <div className="hidden lg:flex justify-between items-center lg:px-10 xl:px-15 2xl:px-30 ">
         {
           left_items.map((item, index) => (
             <div className="w-1/6" key={index} >
