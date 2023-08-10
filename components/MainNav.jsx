@@ -89,7 +89,7 @@ const MainNav = (className, ...props) => {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="lg:hidden flex justify-between w-full px-5 relative">
+      <div className="lg:hidden flex justify-between w-full px-5 items-center relative">
         <div className="w-64 h-32 relative">
           <Link href="/" >
             <Image
