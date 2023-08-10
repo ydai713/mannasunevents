@@ -24,16 +24,16 @@ const GalleryIntro = () => {
           <h1 className={cn("tracking-6 text-sm md:text-base py-10", palashRegular.className)}>
             BROWSE OUR GALLERY
           </h1>
-          <Link href="/weddings" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
+          <Link href="/portfolio/weddings" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
             WEDDINGS
           </Link>
-          <Link href="/events" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
+          <Link href="/portfolio/events" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
             EVENTS
           </Link>
-          <Link href="/videos" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
+          <Link href="/portfolio/videos" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
             VIDEOS
           </Link>
-          <Link href="/editorals" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
+          <Link href="/portfolio/editorals" className={cn("tracking-4 py-5 text-md", nunitoSansLight.className)}>
             EDITORIALS
           </Link>
         </div>
