@@ -12,7 +12,7 @@ const GalleryIntro = () => {
 
         <div className="aspect-[5/3] mx-2 lg:mx-3 w-1/3 relative">
           <Image
-            src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/gallery-intro/1.jpg"
+            src="https://d2goq47gtd0y9z.cloudfront.net/gallery-intro/1.jpg"
             fill
             style={{ objectFit: "cover" }}
             alt="Manna Sun"
@@ -44,7 +44,7 @@ const GalleryIntro = () => {
       <div className="lg:hidden flex flex-col items-center mx-auto">
         <div className="aspect-[5/3] w-5/6 md:w-1/2 my-1 relative mb-10">
           <Image
-            src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/gallery-intro/1.jpg"
+            src="https://d2goq47gtd0y9z.cloudfront.net/gallery-intro/1.jpg"
             fill
             style={{ objectFit: "cover" }}
             alt="Manna Sun"

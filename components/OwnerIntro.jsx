@@ -31,7 +31,7 @@ const OwnerIntro = () => {
         </div>
         <div className="aspect-[3/4] mx-2 lg:mx-3 lg:w-1/2 xl:w-1/3 2xl:w-1/4 relative">
           <Image
-            src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/owner-intro/1.jpg"
+            src="https://d2goq47gtd0y9z.cloudfront.net/owner-intro/1.jpg"
             fill
             style={{ objectFit: "cover" }}
             alt="Manna Sun"
@@ -40,7 +40,7 @@ const OwnerIntro = () => {
         </div>
         <div className="aspect-[3/4] mx-2 lg:mx-3 lg:w-1/2 xl:w-1/3 2xl:w-1/4 relative">
           <Image
-            src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/owner-intro/2.jpg"
+            src="https://d2goq47gtd0y9z.cloudfront.net/owner-intro/2.jpg"
             fill
             style={{ objectFit: "cover" }}
             alt="Manna Sun"
@@ -74,7 +74,7 @@ const OwnerIntro = () => {
         </div>
         <div className="aspect-[3/4] w-5/6 md:w-1/2 my-1 relative">
           <Image
-            src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/owner-intro/1.jpg"
+            src="https://d2goq47gtd0y9z.cloudfront.net/owner-intro/1.jpg"
             fill
             style={{ objectFit: "cover" }}
             alt="Manna Sun"
@@ -83,7 +83,7 @@ const OwnerIntro = () => {
         </div>
         <div className="aspect-[3/4] w-5/6 md:w-1/2 my-1 relative">
           <Image
-            src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/owner-intro/2.jpg"
+            src="https://d2goq47gtd0y9z.cloudfront.net/owner-intro/2.jpg"
             fill
             style={{ objectFit: "cover" }}
             alt="Manna Sun"

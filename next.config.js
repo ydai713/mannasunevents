@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['mannasunevents-images.s3.us-west-2.amazonaws.com', "scontent.cdninstagram.com"],
+    domains: ['d2goq47gtd0y9z.cloudfront.net', "scontent.cdninstagram.com"],
     remotePatterns: [
       {
         protocol: 'https',

@@ -12,7 +12,7 @@ const About = () => {
         <div className="w-1/2 2xl:w-2/5">
           <AspectRatio ratio={3 / 4}>
             <Image
-              src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/about/1.jpg"
+              src="https://d2goq47gtd0y9z.cloudfront.net/about/1.jpg"
               fill
               style={{ objectFit: "cover" }}
               alt="Manna Sun"
@@ -72,7 +72,7 @@ const About = () => {
         >
           <div>
             <Image
-              src="https://mannasunevents-images.s3.us-west-2.amazonaws.com/about/1.jpg"
+              src="https://d2goq47gtd0y9z.cloudfront.net/about/1.jpg"
               fill
               style={{ objectFit: "cover" }}
               alt="Manna Sun"

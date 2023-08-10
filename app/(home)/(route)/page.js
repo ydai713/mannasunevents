@@ -11,7 +11,7 @@ import Publisher from "@/components/Publisher"
 
 import {isabelThinItalic, palashRegular, nunitoSansLight} from "@/lib/fonts"
 
-const carouselBaseUrl = 'https://mannasunevents-images.s3.us-west-2.amazonaws.com/landing-page-carousel-images';
+const carouselBaseUrl = 'https://d2goq47gtd0y9z.cloudfront.net/landing-page-carousel-images';
 
 const Home = () => {
   return (

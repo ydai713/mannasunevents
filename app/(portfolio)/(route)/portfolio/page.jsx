@@ -9,6 +9,7 @@ const Portfolio = () => {
       <ReactPlayer
         url='https://player.vimeo.com/video/363362477?h=190dcdb576'
         controls
+        onStart={() => console.log('onLoadStart')}
       />
     </div>
   );
