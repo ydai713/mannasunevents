@@ -110,7 +110,7 @@ const Publisher = () => {
       <div className="grid grid-cols-5 gap-10 place-content-center">
         {publishers.map((publisher, index) => (
           <Link href={publisher.article} key={index}>
-            <div className="relative flex items-center justify-center h-16 w-16 md:h-24 md:w-24 rounded-md overflow-hidden cursor-pointer">
+            <div className="relative flex items-center justify-center h-12 w-12 md:h-24 md:w-24 rounded-md overflow-hidden cursor-pointer">
               <Image
                 src={publisher.logo}
                 alt={publisher.logo}
